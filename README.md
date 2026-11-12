@@ -257,7 +257,9 @@ npm run dev
 | Matheus Trevisan Ribeiro |
 
 **Orientadora:** Milena Maredmi Correa Teixeira Veiga
+
 **Instituição:** Faculdade de Tecnologia SENAI – Florianópolis, Santa Catarina
+
 **Turma:** GR SADP 2026/1 N1
 
 ## 📚 Referências
