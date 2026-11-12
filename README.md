@@ -230,10 +230,20 @@ npx serve .
 
 Depois acesse http://localhost:5500 no navegador.
 
-Em qui., 12 de nov. de 2026 às 19:31, Luiz Eduardo Emmerlich
-<luiz_emmerlich@estudante.sesisenai.org.br> escreveu:
->
-> https://github.com/Emmerlichluiz1/InPETU-Hub_MVP/blob/main/README.md
+📁 Estrutura de pastas sugerida
+.
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── assets/
+│   └── img/
+├── docs/
+└── README.md
+
+
+📝 Ajuste a estrutura acima conforme a organização real do repositório.
 
 ## 🗓️ Cronograma
 
