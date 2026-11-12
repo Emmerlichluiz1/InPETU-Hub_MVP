@@ -4,8 +4,8 @@
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![Projeto](https://img.shields.io/badge/projeto-integrador-blue)
-![Front-end](https://img.shields.io/badge/front--end-React-61DAFB)
-![Back-end](https://img.shields.io/badge/back--end-Node.js-339933)
+![Front-end](https://img.shields.io/badge/front--end-HTML-61DAFB)
+![Back-end](https://img.shields.io/badge/back--end-JavaScript-339933)
 ![Banco](https://img.shields.io/badge/banco-PostgreSQL-4169E1)
 
 Projeto Integrador da **Faculdade de Tecnologia SENAI – 2026** (Curso de Graduação Tecnológica, turma GR SADP 2026/1 N1).
@@ -75,10 +75,10 @@ Este projeto desenvolve um **MVP de CRM customizado** que substitui esses contro
 
 | Funcionalidade | Prioridade | Tecnologia |
 |----------------|:----------:|------------|
-| Cadastro de Empreendedores e Empresas | Essencial | Node.js / PostgreSQL |
-| Agendamento de Reuniões e Espaços | Essencial | React / Node.js |
-| Gestão de Atendimentos e Solicitações | Essencial | React / Tailwind CSS |
-| Painel / Controle de Serviços Prestados | Essencial | React / Chart.js |
+| Cadastro de Empreendedores e Empresas | Essencial | JS / PostgreSQL |
+| Agendamento de Reuniões e Espaços | Essencial | HTML / Node.js |
+| Gestão de Atendimentos e Solicitações | Essencial | HTML /  CSS |
+| Painel / Controle de Serviços Prestados | Essencial | HTML / JS |
 | Notificações Automáticas de Lembrete | Desejável | Nodemailer / API |
 
 **Fluxo de reserva (versão inicial):** qualquer pessoa solicita a reserva por formulário → o sistema mostra a disponibilidade → a equipe **aprova ou recusa manualmente** → a reserva é confirmada e fica registrada no histórico. Reservas também podem ser canceladas, com registro do cancelamento.
@@ -193,35 +193,47 @@ Veja o protótipo navegável do site no Figma:
 
 | Camada | Tecnologias |
 |--------|-------------|
-| Front-end | React.js, HTML5, CSS3 / Tailwind CSS, Chart.js |
-| Back-end | Node.js (Express) |
-| Banco de dados | PostgreSQL *(MySQL em avaliação)* |
+| Front-end | , HTML, CSS|
+| Back-end | JavaScript |
+| Banco de dados | PostgreSQL |
 | Notificações | Nodemailer |
 | Prototipação e design | Figma |
-| Gestão e versionamento | GitHub, Trello / Jira |
+| Gestão e versionamento | GitHub |
 
 ## 🚀 Como executar
 
-> 🚧 O projeto está em desenvolvimento. Os comandos abaixo são um **modelo inicial** e devem ser ajustados conforme a estrutura final do repositório.
+O projeto é feito com HTML, CSS e JavaScript puros, então não precisa
+instalar dependências nem fazer build.
 
-**Pré-requisitos:** Node.js (LTS), npm e PostgreSQL.
+Pré-requisitos: um navegador moderno (Chrome, Edge, Firefox) e,
+opcionalmente, o Git e o VS Code com a extensão Live Server.
 
-```bash
+bash
 # 1. Clonar o repositório
 git clone https://github.com/<organizacao>/<repositorio>.git
 cd <repositorio>
 
-# 2. Back-end
-cd backend
-npm install
-cp .env.example .env      # configure as variáveis do banco de dados
-npm run dev
+Opção 1 — Abrir direto no navegador: dê dois cliques no arquivo index.html.
 
-# 3. Front-end (em outro terminal)
-cd frontend
-npm install
-npm run dev
-```
+Opção 2 — Com Live Server (recomendado): abra a pasta no VS Code,
+clique com o botão direito em index.html e escolha Open with Live
+Server. A página recarrega sozinha a cada alteração.
+
+Opção 3 — Servidor local pelo terminal:
+
+bash
+# Com Python
+python -m http.server 5500
+
+# ou com Node.js
+npx serve .
+
+Depois acesse http://localhost:5500 no navegador.
+
+Em qui., 12 de nov. de 2026 às 19:31, Luiz Eduardo Emmerlich
+<luiz_emmerlich@estudante.sesisenai.org.br> escreveu:
+>
+> https://github.com/Emmerlichluiz1/InPETU-Hub_MVP/blob/main/README.md
 
 ## 🗓️ Cronograma
 
@@ -250,11 +262,11 @@ npm run dev
 
 | Integrante |
 |------------|
+| Gabriel Alves Poleto |
 | Isadora Silveira Nunes |
 | Luiz Eduardo Emmerlich |
-| Gabriel Alves Poleto |
-| Yan Vinicios Rios Costa |
 | Matheus Trevisan Ribeiro |
+| Yan Vinicios Rios Costa |
 
 **Orientadora:** Milena Maredmi Correa Teixeira Veiga
 
