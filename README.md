@@ -76,7 +76,7 @@ Este projeto desenvolve um **MVP de CRM customizado** que substitui esses contro
 | Funcionalidade | Prioridade | Tecnologia |
 |----------------|:----------:|------------|
 | Cadastro de Empreendedores e Empresas | Essencial | JS / PostgreSQL |
-| Agendamento de Reuniões e Espaços | Essencial | HTML / Node.js |
+| Agendamento de Reuniões e Espaços | Essencial | HTML / JS |
 | Gestão de Atendimentos e Solicitações | Essencial | HTML /  CSS |
 | Painel / Controle de Serviços Prestados | Essencial | HTML / JS |
 | Notificações Automáticas de Lembrete | Desejável | Nodemailer / API |
