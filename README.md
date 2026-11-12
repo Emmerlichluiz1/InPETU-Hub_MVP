@@ -225,9 +225,6 @@ bash
 # Com Python
 python -m http.server 5500
 
-# ou com Node.js
-npx serve .
-
 Depois acesse http://localhost:5500 no navegador.
 
 📁 Estrutura de pastas sugerida
