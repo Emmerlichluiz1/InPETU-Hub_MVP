@@ -193,7 +193,7 @@ Veja o protótipo navegável do site no Figma:
 
 | Camada | Tecnologias |
 |--------|-------------|
-| Front-end | , HTML, CSS|
+| Front-end | HTML, CSS |
 | Back-end | JavaScript |
 | Banco de dados | PostgreSQL |
 | Notificações | Nodemailer |
