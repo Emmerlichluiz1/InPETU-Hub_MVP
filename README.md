@@ -187,9 +187,7 @@ Este projeto desenvolve um **MVP de CRM customizado** que substitui esses contro
 
 Veja o protótipo navegável do site no Figma:
 
-👉 **[Acessar protótipo no Figma](COLE_AQUI_O_LINK_DO_FIGMA)**
-
-> 📝 Substitua `COLE_AQUI_O_LINK_DO_FIGMA` pelo link do arquivo (no Figma: **Share → Copy link**). Confirme que o acesso está como "Anyone with the link can view".
+👉 **[Acessar protótipo no Figma](https://www.figma.com/design/WDIbkEQ5KdmgwHm0GyAbqD/InPETUHub?node-id=0-1&t=5yuVTe8WsqZzrBta-1)**
 
 ## 🛠️ Tecnologias
 
