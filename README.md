@@ -228,15 +228,25 @@ python -m http.server 5500
 Depois acesse http://localhost:5500 no navegador.
 
 📁 Estrutura de pastas sugerida
+
 .
+
 ├── index.html
+
 ├── css/
+
 │   └── style.css
+
 ├── js/
+
 │   └── script.js
+
 ├── assets/
+
 │   └── img/
+
 ├── docs/
+
 └── README.md
 
 
