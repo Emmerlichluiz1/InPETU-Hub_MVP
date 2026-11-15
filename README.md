@@ -267,6 +267,12 @@ Depois acesse http://localhost:5500 no navegador.
 - **Testes internos:** validação técnica das funcionalidades de agendamento e cadastro, conduzida pela equipe de QA.
 - **Validação com usuários-chave:** apresentação de telas e fluxos à gestão do InPETU Hub, com cenários reais (como simular a locação de um espaço e registrar o atendimento a uma nova startup do Sapiens Parque) para coletar feedback antes de fechar a versão.
 
+  ## Site 
+  https://inpetuhub.netlify.app/agenda.html 
+  Login e senhas para teste!
+  equipe@inpetu.ufsc.br
+ inpetu2026
+
 ## ❓ Pontos em aberto
 
 - **Integração com a Prefeitura de Florianópolis:** funcionamento técnico da API/sistema e quais dados serão trocados.
